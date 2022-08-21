@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherAPI | MAIR</title>
+    <!-- Style css link -->
+    <link rel="stylesheet" href="./style/app.css" />
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="background">
+        <div class="Circle1"></div>
+        <div class="Circle2"></div>
+        <div class="Circle3"></div>
+        <div class="content">
+          <h1 class="Condition">
+            <i class="material-icons sun" id="WeatherType"></i>
+          </h1>
+          <h1 class="Temp"><i id="Temp"></i><span id="F"> &#8451</span></h1>
+          <h1 class="Time" id="Time"></h1>
+          <h1 class="Location">
+            <i class="material-icons locationIcon" id="Place"></i>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <script src="./script/app.js"></script>
+  </body>
+</html>
